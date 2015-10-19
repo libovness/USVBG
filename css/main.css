@@ -13,11 +13,12 @@ body {
 	text-align: left;
 	margin: 0;
 	padding: 0;
-	background:linear-gradient(to right, #711958, #e01200);
+	background:linear-gradient(to bottom right, #711958, #e01200);
 }
 
 body a {
-	text-decoration: none;
+	text-decoration: underline;
+	font-family: 'Benton Sans Bold';
 }
 
 html>body {
@@ -35,50 +36,62 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	margin-top: 100px;
+	margin-top: 120px;
+	margin-bottom:28px;
 	padding-top: 20px;
 	text-align: center;
-	margin-bottom: 5px;
 	font-size:72px;
+	line-height:80px;
 }
 
 h2 {
 	letter-spacing:0.02em;
 	font-size:36px;
-	margin-top:36px;
-	margin-bottom:16px;
+	margin: 0 0 6px 0;
 }
 
 h3 {
-	margin-bottom: 4px;
-	margin-top:0px;
+	margin: 0 0 4px 0;
 }
 
-#subhead {
-	margin-top: 22px;
-	padding-top: 0;
+.subhead {
 	text-align: center;
-	padding: 10px 0;
     font-size:16px;
     text-transform: uppercase;
     font-family: 'Benton Sans Bold';
     letter-spacing:0.1em;
     line-height: 36px;
-    border-top:2px dotted #fff;
-    border-bottom:2px dotted #fff; 
+    border-top:3px dotted #fff;
+    border-bottom:3px dotted #fff; 
+    padding: 6px 0;
+    margin-bottom:0;
+}
+
+p#date {
+
+}
+ 
+p#host {
+	border-top:0;
 }
 
 div#participants {
-	border-bottom:2px dotted #fff; 
+	border-bottom:3px dotted #fff; 
 }
 
-#subhead a {
+.subhead a {
 	text-decoration: underline;
+}
+
+div.content-group {
+	padding-top:45px;
+	padding-bottom:31px;
+	border-bottom:3px dotted #fff; 
 }
 
 p {
 	font-size:18px;
-	line-height: 28px;
+	line-height: 26px;
 
 }
 
@@ -86,16 +99,22 @@ ul {
 	padding: 0;
 	list-style-type: none;
 	overflow: hidden;
+	margin-top: 12px;
 }
 
 li {
-	margin-bottom: 28px;
+	margin-bottom: 24px;
+}
+
+li:last-child {
+	margin-bottom:0px;
 }
 
 li img {
 	margin-right: 24px;
     float: left;
     width:18%;
+    border: 3px solid #fff;
 }
 
 div.participant-info {
@@ -104,11 +123,9 @@ div.participant-info {
 }
 
 #livestream {
-	margin-top: 10px;
 	text-align:center;
-	padding-bottom: 60px;
-	padding-top:20px;
-	border-bottom: 2px dotted #fff;	
+	border-bottom: none;
+	padding-bottom:160px;
 }
 
 a:hover {
@@ -147,14 +164,10 @@ h1, h2, h3, h4, h5, h6, a, p {
 	color:#fff;
 }
 
-div#description {
-	border-bottom: 2px dotted #fff;
-	padding-bottom:20px;
-}
-
 div#mailchimp {
-	padding-top:30px;
-	margin-bottom:120px;
+	padding-top:110px;
+	margin-bottom:180px;
+	border-bottom:0;
 }
 
 div#mc_embed_signup_scroll > label {
@@ -168,7 +181,7 @@ div#mc_embed_signup_scroll > label {
 
 input.email {
 	background:none;
-	border: 2px solid #fff;
+	border: 3px solid #fff;
 	color:#fff !important;
 	padding:20px;
 	font-size:24px;
@@ -179,7 +192,7 @@ input.email {
 input.button {
 	background:#fff;
 	color:rgba(255,255,255,0);
-	border: 2px solid #fff;
+	border: 3px solid #fff;
 	color:#e01200 !important;
 	padding:20px 20px 20px 20px;
 	font-size:24px;
@@ -193,6 +206,17 @@ input.button {
   zoom: 1;
 }
 
+p.twitter {
+	text-transform: uppercase;
+	font-size:13px;
+	margin: -4px 0 4px 0;
+	padding:0px;
+}
+
+p.twitter > a {
+	text-decoration: none;
+}
+
 @media (max-width: 767px) {
 
 	h1 {
@@ -201,7 +225,7 @@ input.button {
 		line-height:48px;
 	}
 
-	p#subhead {
+	p.subhead {
 		font-size:14px;
 		line-height:24px;
 	}
