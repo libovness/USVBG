@@ -26,7 +26,6 @@ html>body {
 }
 
 #container {
-	width: 900px;
 	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -76,10 +75,6 @@ p#host {
 	border-top:0;
 }
 
-div#participants {
-	border-bottom:3px dotted #fff; 
-}
-
 .subhead a {
 	text-decoration: underline;
 }
@@ -126,7 +121,7 @@ div.participant-info {
 #livestream {
 	text-align:center;
 	border-bottom: none;
-	padding-bottom:160px;
+	padding-bottom:20px;
 }
 
 a:hover {
@@ -217,6 +212,10 @@ p.twitter > a {
 	text-decoration: none;
 }
 
+input:focus {
+	outline:none;
+}
+
 @media (max-width: 767px) {
 
 	h1 {
@@ -226,13 +225,48 @@ p.twitter > a {
 	}
 
 	p.subhead {
-		font-size:14px;
+		font-size:12px;
 		line-height:24px;
 	}
 
 	h2 {
 		font-size:28px;
 	}
+
+	li img {
+		margin-right: 15px;
+	}
+
+	div#mailchimp {
+		padding-top:60px;
+		margin-bottom:80px;
+	}
+
+	div#mc_embed_signup_scroll > label {
+		font-size:28px;
+	}
+
+	#mc_embed_signup input.email {
+		font-size:16px;
+	}
+	#mc_embed_signup input.button {
+		padding:18px 6px 22px 6px;
+		font-size:16px;
+	}
+
+	#mc_embed_signup input.button:hover {
+		background:#fff;
+	}
+
+	.subhead {
+	    border-top:2px dotted #fff;
+	    border-bottom:2px dotted #fff; 
+	}
+
+	div.content-group {
+		border-bottom:2px dotted #fff; 
+	}
+
 
 }
 
