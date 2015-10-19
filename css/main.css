@@ -26,6 +26,7 @@ html>body {
 }
 
 #container {
+	width: 900px;
 	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -179,7 +180,7 @@ div#mc_embed_signup_scroll > label {
 	margin-bottom:12px;
 }
 
-input.email {
+#mc_embed_signup input.email {
 	background:none;
 	border: 3px solid #fff;
 	color:#fff !important;
@@ -189,23 +190,23 @@ input.email {
 	font-family:'Benton Sans';
 	width:70%;
 }
-input.button {
+#mc_embed_signup input.button {
 	background:#fff;
 	color:rgba(255,255,255,0);
 	border: 3px solid #fff;
 	color:#e01200 !important;
-	padding:20px 20px 20px 20px;
+	padding:0px 20px 32px 20px;
 	font-size:24px;
 	float:left;
 	font-family:'Benton Sans Bold';
 	width:30%;
 }
 
-.clearfix {
-  overflow: auto;
-  zoom: 1;
+#mc_embed_signup input.button:hover {
+	background:#fff;
 }
 
+<<<<<<< HEAD
 p.twitter {
 	text-transform: uppercase;
 	font-size:13px;
@@ -234,4 +235,22 @@ p.twitter > a {
 		font-size:28px;
 	}
 
+}
+
+-webkit-input-placeholder {
+ color:#fff !important;
+}
+-moz-placeholder { /* older Firefox*/
+ color:#fff !important;
+}
+-moz-placeholder { /* Firefox 19+ */ 
+ color:#fff !important;
+} 
+-ms-input-placeholder { 
+ color:#fff !important;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
 }
