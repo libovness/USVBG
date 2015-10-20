@@ -234,8 +234,9 @@ input:focus {
 	}
 
 	p.subhead {
-		font-size:12px;
+		font-size:13px;
 		line-height:24px;
+		padding: 8px 0;
 	}
 
 	h2 {
@@ -265,15 +266,6 @@ input:focus {
 
 	#mc_embed_signup input.button:hover {
 		background:#fff;
-	}
-
-	.subhead {
-	    border-top:2px dotted #fff;
-	    border-bottom:2px dotted #fff; 
-	}
-
-	div.content-group {
-		border-bottom:2px dotted #fff; 
 	}
 
 
