@@ -36,8 +36,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	margin-top: 120px;
-	margin-bottom:28px;
+	margin-bottom:48px;
 	padding-top: 20px;
 	text-align: center;
 	font-size:72px;
@@ -126,6 +125,16 @@ div.participant-info {
 
 a:hover {
 	color:#fff;
+}
+
+img#mactalk {
+	margin: 120px auto 20px auto;
+	display:block;
+}
+
+div#participants-live {
+	border-bottom:0;
+	margin-bottom:100px;
 }
 
 @font-face {
