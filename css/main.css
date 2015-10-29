@@ -125,6 +125,11 @@ div.participant-info {
 	width:76%;
 }
 
+div#participants {
+	border-bottom:none;
+	margin-bottom:100px;
+}
+
 #livestream {
 	text-align:center;
 	border-bottom: none;
